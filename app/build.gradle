@@ -23,6 +23,11 @@ android {
             aaptOptions.useNewCruncher = false
         }
     }
+
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher=false
+    }
 }
 
 dependencies {
